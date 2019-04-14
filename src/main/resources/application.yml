@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+
+logging:
+  level:
+    com.lk: trace
+  file: my.log
+  pattern:
+    console: "%boldMagenta(%d{yyyy-MM-dd HH:mm:ss})  [%p]  %highlight(%C:%L)  : %m %n"
+    file: "%boldMagenta(%d{yyyy-MM-dd HH:mm:ss})  [%p]  %highlight(%C:%L)  : %m %n"
